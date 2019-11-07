@@ -1,8 +1,15 @@
 <template lang="html">
 <div>
   <h1>个人中心</h1>
-  <nuxt-link to='/user/order'>查看我的订单</nuxt-link>
+  <br>
+
+  <!-- 声明式路由 -->
+  <nuxt-link to='/user/bar'>bar tab</nuxt-link>
+  <br>
+
+  <!-- 二级组件的承载容器 -->
   <nuxt-child></nuxt-child>
+  
 </div>
 </template>
 

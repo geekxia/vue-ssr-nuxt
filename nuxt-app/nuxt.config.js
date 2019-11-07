@@ -46,7 +46,6 @@ module.exports = {
     '/soso': {
       target: 'https://c.y.qq.com'
     }
-
   },
   /*
   ** Build configuration
@@ -57,14 +56,6 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
-    }
-  },
-  router: {
-    extendRoutes (routes) {
-      routes.push({
-        path: '/home',
-        redirect: '/user'
-      })
     }
   }
 }

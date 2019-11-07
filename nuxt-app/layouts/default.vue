@@ -1,14 +1,20 @@
 <template>
   <div>
+
     <div>
+      <!-- 声明式路由 -->
       <nuxt-link to='/home' activeClass='on' tag='span'>首页</nuxt-link>
       <nuxt-link to='/music' activeClass='on' tag='span'>音乐</nuxt-link>
       <nuxt-link to='/user' activeClass='on' tag='span'>我</nuxt-link>
-      <nuxt-link to='/good' activeClass='on' tag='span'>UI框架</nuxt-link>
-
-
+      <!-- 类比，router-link -->
     </div>
+
+    <!-- <h1>公共文字</h1> -->
+
+    <!-- 一级组件的承载容器 -->
+    <!-- 类比，router-view -->
     <nuxt />
+
   </div>
 </template>
 
@@ -61,8 +67,9 @@ html {
   background-color: #35495e;
 }
 
+/* tab的高亮样式 */
 .on {
-  background: red;
+  background-color: red;
   color: white;
 }
 </style>
